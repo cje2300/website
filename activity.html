@@ -1,31 +1,39 @@
 
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>활동 페이지</title>
-    <link rel="stylesheet" href="style.css">
+    <title>내 활동</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="activity.html">Activity</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">내가 바로 이진수</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activity.html">내 활동</a></li>
+                    <li><a href="posts.html">게시글</a></li>
+                    <li><a href="about.html">About me</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h1>내 활동</h1>
-            <form id="activity-form">
-                <textarea id="activity-input" rows="4" placeholder="활동 내용을 입력하세요"></textarea>
-                <button type="submit">추가</button>
+    <section class="content">
+        <div class="container">
+            <h2>내 활동</h2>
+            <form>
+                <textarea placeholder="What's happening?"></textarea>
+                <button type="submit">Tweet</button>
             </form>
-            <div id="activity-threads"></div>
-        </section>
-    </main>
-    <script src="script.js"></script>
+            <div class="posts">
+                <div class="post">
+                    <p>여기에 트윗 내용이 표시됩니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

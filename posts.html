@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>내가 바로 이진수</title>
+    <title>게시글</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="profile">
-                <img src="image2.png" alt="Profile Image" class="profile-image">
-            </div>
             <h1 class="logo">내가 바로 이진수</h1>
             <nav class="nav">
                 <ul>
@@ -24,10 +21,20 @@
             </nav>
         </div>
     </header>
-
-    <section class="hero">
+    <section class="content">
         <div class="container">
-            <h1>GPT로 웹사이트 만들기 하는중</h1>
+            <h2>게시글</h2>
+            <form>
+                <input type="text" placeholder="Title">
+                <textarea placeholder="Content"></textarea>
+                <button type="submit">Post</button>
+            </form>
+            <div class="posts">
+                <div class="post">
+                    <h3>게시글 제목</h3>
+                    <p>게시글 내용이 여기에 표시됩니다.</p>
+                </div>
+            </div>
         </div>
     </section>
 </body>
