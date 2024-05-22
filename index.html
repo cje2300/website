@@ -1,32 +1,47 @@
 
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>홈페이지</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="activity.html">Activity</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MY WEBSITE</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Log In</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h1>내 정보</h1>
-            <p>여기에 자신의 정보를 적습니다.</p>
-        </section>
-        <section>
-            <h2>메뉴</h2>
-            <ul>
-                <li><a href="activity.html">활동 페이지로 이동</a></li>
-            </ul>
-        </section>
-    </main>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Design a website.<br>You can too! With MyWebsite.</h1>
+            <img src="image.png" alt="Hero Image" class="hero-image">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h2>Designs for every industry</h2>
+                <p>Impress your customers with a beautiful website. Get designs tailored for your industry and all the features you need. No coding required. Start now!</p>
+                <ul>
+                    <li>Automatic SEO</li>
+                    <li>Professional domains</li>
+                    <li>Easy-to-track statistics</li>
+                </ul>
+                <a href="#" class="btn">Start Now</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
